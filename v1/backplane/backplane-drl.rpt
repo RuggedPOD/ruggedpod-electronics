@@ -1,0 +1,37 @@
+Drill report for /home/yanbing/Documents/Kicad/backplane/backplane.kicad_pcb
+Created on mer. 08 juin 2016 11:12:46 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    inner1
+    L3 :  In2.Cu                    inner2
+    L4 :  B.Cu                      back
+
+
+Drill file 'backplane.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (138 holes)
+    T2  0,63mm  0,025"  (12 holes)
+    T3  0,70mm  0,028"  (144 holes)
+    T4  0,80mm  0,031"  (110 holes)
+    T5  0,90mm  0,035"  (32 holes)
+    T6  0,92mm  0,036"  (4 holes)
+    T7  1,00mm  0,039"  (32 holes)  (with 6 slots)
+    T8  1,14mm  0,045"  (40 holes)
+    T9  1,40mm  0,055"  (40 holes)
+    T10  3,25mm  0,128"  (8 holes)
+
+    Total plated holes count 560
+
+
+Drill file 'backplane-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2,30mm  0,091"  (2 holes)
+    T2  2,35mm  0,093"  (8 holes)
+    T3  3,00mm  0,118"  (18 holes)
+    T4  3,20mm  0,126"  (18 holes)
+
+    Total unplated holes count 46

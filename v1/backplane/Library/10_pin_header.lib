@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 10_Pin_Header
+#
+DEF 10_Pin_Header J 0 40 Y Y 1 F N
+F0 "J" -300 550 39 H V C CNN
+F1 "10_Pin_Header" 50 550 39 H V C CNN
+F2 "" 0 0 39 H V C CNN
+F3 "" 0 0 39 H V C CNN
+DRAW
+S -400 450 700 150 0 1 0 N
+X 1 ~ -300 -50 200 U 50 50 1 1 P
+X 10 ~ 600 -50 200 U 50 50 1 1 P
+X 2 ~ -200 -50 200 U 50 50 1 1 P
+X 3 ~ -100 -50 200 U 50 50 1 1 P
+X 4 ~ 0 -50 200 U 50 50 1 1 P
+X 5 ~ 100 -50 200 U 50 50 1 1 P
+X 6 ~ 200 -50 200 U 50 50 1 1 P
+X 7 ~ 300 -50 200 U 50 50 1 1 P
+X 8 ~ 400 -50 200 U 50 50 1 1 P
+X 9 ~ 500 -50 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

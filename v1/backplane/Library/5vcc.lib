@@ -1,0 +1,16 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 5VCC
+#
+DEF 5VCC V 0 40 Y Y 1 F N
+F0 "V" -150 -100 60 H I C CNN
+F1 "5VCC" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X ~ ~ 150 -100 200 U 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+#End Library
