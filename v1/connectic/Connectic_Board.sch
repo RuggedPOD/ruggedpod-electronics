@@ -1,0 +1,480 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Mylib
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Molex_44050-0001 J51
+U 1 1 576BFF42
+P 1750 1800
+F 0 "J51" H 2150 2000 60  0000 C CNN
+F 1 "Molex_44050-0001" H 1650 2800 60  0000 C CNN
+F 2 "" H 1750 1800 60  0000 C CNN
+F 3 "" H 1750 1800 60  0000 C CNN
+	1    1750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 576BFF99
+P 1800 1800
+F 0 "#PWR1" H 1800 1550 50  0001 C CNN
+F 1 "GND" H 1800 1650 50  0000 C CNN
+F 2 "" H 1800 1800 50  0000 C CNN
+F 3 "" H 1800 1800 50  0000 C CNN
+	1    1800 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 1000 2    39   BiDi ~ 0
+TD1-
+Text GLabel 2550 1100 2    39   BiDi ~ 0
+TD2+
+Text GLabel 2550 1200 2    39   BiDi ~ 0
+TD3+
+Text GLabel 2550 1300 2    39   BiDi ~ 0
+TD3-
+Text GLabel 900  1000 0    39   BiDi ~ 0
+TD0+
+Text GLabel 900  1100 0    39   BiDi ~ 0
+TD0-
+Text GLabel 900  1200 0    39   BiDi ~ 0
+TD1+
+Text GLabel 900  1300 0    39   BiDi ~ 0
+TD2-
+$Comp
+L MOLEX_22112042 J52
+U 1 1 576C0145
+P 5600 1350
+F 0 "J52" H 5400 1950 39  0000 C CNN
+F 1 "MOLEX_22112042" H 5500 1200 39  0000 C CNN
+F 2 "" H 5600 1350 39  0000 C CNN
+F 3 "" H 5600 1350 39  0000 C CNN
+	1    5600 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 900  0    39   Output ~ 0
+Pump_GND
+Text GLabel 4850 1050 0    39   Output ~ 0
+Pump_Sense
+Text GLabel 4850 1300 0    39   Output ~ 0
+Pump_PWM
+$Comp
+L FCI_10018783_10000MLF U1
+U 1 1 576CF0D7
+P 8100 1650
+F 0 "U1" H 8400 600 39  0000 C CNN
+F 1 "FCI_10018783_10000MLF" H 7950 600 39  0000 C CNN
+F 2 "" H 8100 1650 39  0000 C CNN
+F 3 "" H 8100 1650 39  0000 C CNN
+	1    8100 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8950 750  2    39   BiDi ~ 0
+TD0+
+Text GLabel 8950 850  2    39   BiDi ~ 0
+TD0-
+Text GLabel 8950 950  2    39   BiDi ~ 0
+TD1+
+Text GLabel 8950 1050 2    39   BiDi ~ 0
+TD1-
+Text GLabel 8950 1150 2    39   BiDi ~ 0
+TD2+
+Text GLabel 8950 1250 2    39   BiDi ~ 0
+TD2-
+Text GLabel 8950 1350 2    39   BiDi ~ 0
+TD3+
+Text GLabel 8950 1450 2    39   BiDi ~ 0
+TD3-
+NoConn ~ 8700 1550
+NoConn ~ 8700 1650
+NoConn ~ 8700 1750
+Text GLabel 8950 1850 2    39   Input ~ 0
+ON/OFF
+NoConn ~ 8700 1950
+Text GLabel 8950 2050 2    39   Input ~ 0
+RESET
+Text GLabel 8950 2250 2    39   Input ~ 0
+RX
+Text GLabel 8950 2450 2    39   Input ~ 0
+TX
+NoConn ~ 8700 2150
+NoConn ~ 8700 2350
+NoConn ~ 7500 750 
+NoConn ~ 7500 850 
+NoConn ~ 7500 950 
+NoConn ~ 7500 1050
+NoConn ~ 7500 1150
+NoConn ~ 7500 1250
+NoConn ~ 7500 1350
+NoConn ~ 7500 1450
+NoConn ~ 7500 1550
+$Comp
+L 12VCC #PWR5
+U 1 1 576CF6D5
+P 7500 1650
+F 0 "#PWR5" H 7750 1550 39  0001 C CNN
+F 1 "12VCC" H 7750 1750 39  0000 C CNN
+F 2 "" H 7500 1650 39  0000 C CNN
+F 3 "" H 7500 1650 39  0000 C CNN
+	1    7500 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 576CF7DC
+P 10500 700
+F 0 "#PWR7" H 10500 450 50  0001 C CNN
+F 1 "GND" H 10500 550 50  0000 C CNN
+F 2 "" H 10500 700 50  0000 C CNN
+F 3 "" H 10500 700 50  0000 C CNN
+	1    10500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 576CF81F
+P 10500 700
+F 0 "#FLG2" H 10500 795 50  0001 C CNN
+F 1 "PWR_FLAG" H 10500 880 50  0000 C CNN
+F 2 "" H 10500 700 50  0000 C CNN
+F 3 "" H 10500 700 50  0000 C CNN
+	1    10500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG3
+U 1 1 576CF845
+P 10950 700
+F 0 "#FLG3" H 10950 795 50  0001 C CNN
+F 1 "PWR_FLAG" H 10950 880 50  0000 C CNN
+F 2 "" H 10950 700 50  0000 C CNN
+F 3 "" H 10950 700 50  0000 C CNN
+	1    10950 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 12VCC #PWR8
+U 1 1 576CF85A
+P 10950 700
+F 0 "#PWR8" V 11000 800 39  0001 C CNN
+F 1 "12VCC" V 11050 750 39  0000 C CNN
+F 2 "" H 10950 700 39  0000 C CNN
+F 3 "" H 10950 700 39  0000 C CNN
+	1    10950 700 
+	0    1    1    0   
+$EndComp
+NoConn ~ 7500 1750
+NoConn ~ 7500 1850
+NoConn ~ 7500 1950
+Text GLabel 7350 2050 0    39   Input ~ 0
+Pump_GND
+NoConn ~ 7500 2150
+NoConn ~ 7500 2350
+Text GLabel 7350 2250 0    39   Input ~ 0
+Pump_PWM
+Text GLabel 7350 2450 0    39   Input ~ 0
+Pump_Sense
+$Comp
+L 12VCC #PWR4
+U 1 1 576CFB47
+P 5150 1150
+F 0 "#PWR4" H 5300 1150 39  0001 C CNN
+F 1 "12VCC" H 5100 1200 39  0000 C CNN
+F 2 "" H 5150 1150 39  0000 C CNN
+F 3 "" H 5150 1150 39  0000 C CNN
+	1    5150 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 39-30-3035-molex J1
+U 1 1 576CFE87
+P 1700 3300
+F 0 "J1" H 1400 3500 39  0000 C CNN
+F 1 "39-30-3035-molex" H 1700 2950 39  0000 C CNN
+F 2 "" H 1700 3300 39  0000 C CNN
+F 3 "" H 1700 3300 39  0000 C CNN
+	1    1700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR2
+U 1 1 576CFF50
+P 2200 3000
+F 0 "#PWR2" H 2200 2850 50  0001 C CNN
+F 1 "+24V" H 2200 3140 50  0000 C CNN
+F 2 "" H 2200 3000 50  0000 C CNN
+F 3 "" H 2200 3000 50  0000 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 576CFFB6
+P 10000 700
+F 0 "#FLG1" H 10000 795 50  0001 C CNN
+F 1 "PWR_FLAG" H 10000 880 50  0000 C CNN
+F 2 "" H 10000 700 50  0000 C CNN
+F 3 "" H 10000 700 50  0000 C CNN
+	1    10000 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR6
+U 1 1 576CFFD2
+P 10000 700
+F 0 "#PWR6" H 10000 550 50  0001 C CNN
+F 1 "+24V" H 10000 840 50  0000 C CNN
+F 2 "" H 10000 700 50  0000 C CNN
+F 3 "" H 10000 700 50  0000 C CNN
+	1    10000 700 
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2050 3350
+$Comp
+L GND #PWR3
+U 1 1 576D0036
+P 2200 3550
+F 0 "#PWR3" H 2200 3300 50  0001 C CNN
+F 1 "GND" H 2200 3400 50  0000 C CNN
+F 2 "" H 2200 3550 50  0000 C CNN
+F 3 "" H 2200 3550 50  0000 C CNN
+	1    2200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOLEX_90130_1108 J50
+U 1 1 576D0167
+P 4450 3250
+F 0 "J50" H 4700 2900 39  0000 C CNN
+F 1 "MOLEX_90130_1108" H 4450 3500 39  0000 C CNN
+F 2 "" H 4450 3250 39  0000 C CNN
+F 3 "" H 4450 3250 39  0000 C CNN
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 576D02E5
+P 6000 3300
+F 0 "D1" H 6000 3400 50  0000 C CNN
+F 1 "LED" H 6000 3200 50  0000 C CNN
+F 2 "" H 6000 3300 50  0000 C CNN
+F 3 "" H 6000 3300 50  0000 C CNN
+	1    6000 3300
+	0    1    1    0   
+$EndComp
+Text GLabel 5250 3150 2    39   Output ~ 0
+RX
+Text GLabel 5250 3450 2    39   Input ~ 0
+RESET
+Text GLabel 3650 3150 0    39   Input ~ 0
+TX
+Text GLabel 3650 3450 0    39   Input ~ 0
+ON/OFF
+NoConn ~ 4050 3350
+Text GLabel 3700 3250 0    39   Input ~ 0
+PSON
+$Comp
+L 15-24-6060-MOLEX J54
+U 1 1 576D07C1
+P 8300 3800
+F 0 "J54" H 8450 3500 39  0000 C CNN
+F 1 "15-24-6060-MOLEX" H 8300 4100 39  0000 C CNN
+F 2 "" H 8450 3800 39  0000 C CNN
+F 3 "" H 8450 3800 39  0000 C CNN
+	1    8300 3800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8750 3800
+NoConn ~ 7800 3800
+$Comp
+L +24V #PWR?
+U 1 1 576D0851
+P 8900 3450
+F 0 "#PWR?" H 8900 3300 50  0001 C CNN
+F 1 "+24V" H 8900 3590 50  0000 C CNN
+F 2 "" H 8900 3450 50  0000 C CNN
+F 3 "" H 8900 3450 50  0000 C CNN
+	1    8900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 576D0878
+P 7650 3450
+F 0 "#PWR?" H 7650 3300 50  0001 C CNN
+F 1 "+24V" H 7650 3590 50  0000 C CNN
+F 2 "" H 7650 3450 50  0000 C CNN
+F 3 "" H 7650 3450 50  0000 C CNN
+	1    7650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1700 1800 1700
+Wire Wire Line
+	1800 1700 1800 1800
+Wire Wire Line
+	2450 1000 2550 1000
+Wire Wire Line
+	2550 1100 2450 1100
+Wire Wire Line
+	2550 1200 2450 1200
+Wire Wire Line
+	2550 1300 2450 1300
+Wire Wire Line
+	900  1000 1050 1000
+Wire Wire Line
+	1050 1100 900  1100
+Wire Wire Line
+	900  1200 1050 1200
+Wire Wire Line
+	1050 1300 900  1300
+Wire Wire Line
+	4850 900  5150 900 
+Wire Wire Line
+	5150 1050 4850 1050
+Wire Wire Line
+	4850 1300 5150 1300
+Wire Wire Line
+	8700 750  8950 750 
+Wire Wire Line
+	8950 850  8700 850 
+Wire Wire Line
+	8700 950  8950 950 
+Wire Wire Line
+	8950 1050 8700 1050
+Wire Wire Line
+	8700 1150 8950 1150
+Wire Wire Line
+	8950 1250 8700 1250
+Wire Wire Line
+	8700 1350 8950 1350
+Wire Wire Line
+	8950 1450 8700 1450
+Wire Wire Line
+	8700 1850 8950 1850
+Wire Wire Line
+	8700 2050 8950 2050
+Wire Wire Line
+	8700 2250 8950 2250
+Wire Wire Line
+	8950 2450 8700 2450
+Wire Wire Line
+	7350 2050 7500 2050
+Wire Wire Line
+	7350 2250 7500 2250
+Wire Wire Line
+	7500 2450 7350 2450
+Wire Wire Line
+	2200 3000 2200 3200
+Wire Wire Line
+	2200 3200 2050 3200
+Wire Wire Line
+	2050 3500 2200 3500
+Wire Wire Line
+	2200 3500 2200 3550
+Wire Wire Line
+	4850 3250 5550 3250
+Wire Wire Line
+	5550 3250 5550 2700
+Wire Wire Line
+	5550 2700 6000 2700
+Wire Wire Line
+	6000 2700 6000 3100
+Wire Wire Line
+	4850 3150 5250 3150
+Wire Wire Line
+	5250 3450 4850 3450
+Wire Wire Line
+	4850 3350 5550 3350
+Wire Wire Line
+	5550 3350 5550 3800
+Wire Wire Line
+	5550 3800 6000 3800
+Wire Wire Line
+	6000 3800 6000 3500
+Wire Wire Line
+	3650 3150 4050 3150
+Wire Wire Line
+	4050 3450 3650 3450
+Wire Wire Line
+	4050 3250 3700 3250
+Wire Wire Line
+	7650 3450 7650 3650
+Wire Wire Line
+	7650 3650 7800 3650
+Wire Wire Line
+	8750 3650 8900 3650
+Wire Wire Line
+	8900 3650 8900 3450
+$Comp
+L GND #PWR?
+U 1 1 576D0A0B
+P 7650 4100
+F 0 "#PWR?" H 7650 3850 50  0001 C CNN
+F 1 "GND" H 7650 3950 50  0000 C CNN
+F 2 "" H 7650 4100 50  0000 C CNN
+F 3 "" H 7650 4100 50  0000 C CNN
+	1    7650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 576D0A39
+P 8900 4100
+F 0 "#PWR?" H 8900 3850 50  0001 C CNN
+F 1 "GND" H 8900 3950 50  0000 C CNN
+F 2 "" H 8900 4100 50  0000 C CNN
+F 3 "" H 8900 4100 50  0000 C CNN
+	1    8900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3950 7650 3950
+Wire Wire Line
+	7650 3950 7650 4100
+Wire Wire Line
+	8750 3950 8900 3950
+Wire Wire Line
+	8900 3950 8900 4100
+$EndSCHEMATC
